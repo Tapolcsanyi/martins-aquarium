@@ -3,9 +3,9 @@ export const Anime = (animeObj) => {
 				<div><img class="anime-image" src="images/${animeObj.image}" /></div>
 				<h3 class="anime-name">${animeObj.name}</h3>
 				<ul>
-					<li class="anime-details">${animeObj.madeMeCry}</li>
-					<li class="anime-details"> ${animeObj.awesomeFights} inches</li>
-					<li class="anime-details"> ${animeObj.rank}</li>
+					<li class="anime-details">Made Me Cry: ${animeObj.madeMeCry}</li>
+					<li class="anime-details">Awesome Fights: ${animeObj.awesomeFights}</li>
+					<li class="anime-details">Rank: ${animeObj.rank}</li>
 				</ul>
         	</article>`
 }
